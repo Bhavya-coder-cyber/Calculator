@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.calc{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 70vh;
+    width: 20vw;
+    padding: 10px;
+}
+#value{
+    padding: 10px;
+    text-align: end;
+    font-size: xx-large;
+    background: transparent;
+    width: 93%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.buttons button{
+    font-weight: bolder;
+    font-size: large;
+    height: 70px;
+    border-radius: 100px;
+    
+}
+
+.opt{
+    color: white;
+    background-color: gray;
+    border: 2px solid gray;
+}
+.num{
+    background-color: gray;
+    border: 2px solid gray;
+}
+.sol{
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+}
